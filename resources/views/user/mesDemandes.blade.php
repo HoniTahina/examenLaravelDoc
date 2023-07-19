@@ -165,7 +165,7 @@
               <td>{{$d->user->telephone}}</td>
               <td>{{$d->anneeScolaire}}</td>
               <td>{{$d->semestre}}</td>
-              <td>{{$d->calsse}}</td>
+              <td>{{$d->classe}}</td>
               <td>{{$d->motif}}</td>
               <td>{{$d->etat}}</td>
               <td>
@@ -186,11 +186,13 @@
               <tr>
                 <td>N</td>
                 <td>Nom et Prénoms</td>
-                <td>Nom du doc</td>
+                <td>Document</td>
                 <td>E-mail</td>
                 <td>Numéro</td>
-                <td>Date</td>
-                <td>Message</td>
+                <td>Anneé Scolaire</td>
+                <td>Semestre</td>
+                <td>Classe</td>
+                <td>Motif</td>
                 <td>Etat</td>
               </tr>
             </thead>
@@ -202,8 +204,10 @@
                 <td>{{$d->document}}</td>
                 <td>{{$d->user->email}}</td>
                 <td>{{$d->user->telephone}}</td>
-                <td>{{$d->date}}</td>
-                <td>{{$d->message}}</td>
+                <td>{{$d->anneeScolaire}}</td>
+              <td>{{$d->semestre}}</td>
+              <td>{{$d->classe}}</td>
+              <td>{{$d->motif}}</td>
                 <td>{{$d->etat}}</td>
                 
               </tr>
@@ -220,8 +224,10 @@
               <td>Nom du doc</td>
               <td>E-mail</td>
               <td>Numéro</td>
-              <td>Date</td>
-              <td>Message</td>
+              <td>Anneé Scolaire</td>
+              <td>Semestre</td>
+              <td>Classe</td>
+              <td>Motif</td>
               <td>Etat</td>
             </tr>
           </thead>
@@ -233,8 +239,10 @@
               <td>{{$d->document}}</td>
               <td>{{$d->user->email}}</td>
               <td>{{$d->user->telephone}}</td>
-              <td>{{$d->date}}</td>
-              <td>{{$d->message}}</td>
+              <td>{{$d->anneeScolaire}}</td>
+              <td>{{$d->semestre}}</td>
+              <td>{{$d->classe}}</td>
+              <td>{{$d->motif}}</td>
               <td>{{$d->etat}}</td>
             </tr>
             @endforeach
@@ -250,8 +258,10 @@
                 <td>Nom du doc</td>
                 <td>E-mail</td>
                 <td>Numéro</td>
-                <td>Date</td>
-                <td>Message</td>
+                <td>Anneé Scolaire</td>
+              <td>Semestre</td>
+              <td>Classe</td>
+              <td>Motif</td>
                 <td>Etat</td>
               </tr>
             </thead>
@@ -263,8 +273,10 @@
                 <td>{{$d->document}}</td>
                 <td>{{$d->user->email}}</td>
                 <td>{{$d->user->telephone}}</td>
-                <td>{{$d->date}}</td>
-                <td>{{$d->message}}</td>
+                <td>{{$d->anneeScolaire}}</td>
+              <td>{{$d->semestre}}</td>
+              <td>{{$d->classe}}</td>
+              <td>{{$d->motif}}</td>
                 <td>{{$d->etat}}</td>
                 
               </tr>

@@ -92,8 +92,8 @@
         </select>
       </div>
       <div class="form-outline mb-4" data-wow-delay="300ms">
-        <label for="Année scolaire" style="color: blanchedalmond">Année scolaire</label>
-        <select name="Annee_scolaire" id="Annee_scolaire" class="custom-select" required>          
+        <label for="anneeScolaire" style="color: blanchedalmond">Année scolaire</label>
+        <select name="anneeScolaire" id="anneeScolaire" class="custom-select" required>          
           <option value="2000 - 2001">2010 - 2011</option>
           <option value="2000 - 2001">2011 - 2012</option>
           <option value="2000 - 2001">2012 - 2013</option>
@@ -110,16 +110,16 @@
         </select>
       </div>  
       <div class="form-outline mb-4" data-wow-delay="300ms">
-        <label for="Semestre" style="color: blanchedalmond">Semestre</label>
-        <select name="Semestre" id="Semestre" class="custom-select" required>          
+        <label for="semestre" style="color: blanchedalmond">Semestre</label>
+        <select name="semestre" id="semestre" class="custom-select" required>          
           <option value="Semestre 1 et Semestre 2">Semestre 1 et Semestre 2</option>
           <option value="Semestre 1">Semestre 1</option>
           <option value="Semestre 2">Semestre 2</option>        
         </select>
       </div>  
       <div class="form-outline mb-4" data-wow-delay="300ms">
-        <label for="Classe" style="color: blanchedalmond">Classe</label>
-        <select name="Classe" id="Classe" class="custom-select" required>          
+        <label for="classe" style="color: blanchedalmond">Classe</label>
+        <select name="classe" id="classe" class="custom-select" required>          
           <option value="GL">GL</option>
           <option value="IAGE">IAGE</option>
           <option value="RI">RI</option>        
