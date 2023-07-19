@@ -16,6 +16,14 @@ class DemandeController extends Controller
         $document = Document::all();
         return view('user.faireDemande', compact('document'));
     }
+    public function faireDemande1(){
+        $document = Document::all();
+        return view('user.faireDemande1', compact('document'));
+    }
+    public function faireDemande2(){
+        $document = Document::all();
+        return view('user.faireDemande2', compact('document'));
+    }
     public function demandeEnCours(){
         $id = Auth::id();
         $etat = 'En cours';
@@ -46,8 +54,10 @@ class DemandeController extends Controller
         $demande = new Demande;
         
         $demande->document = request('document');       
-        $demande->date = request('date');       
-        $demande->message = request('message');       
+        $demande->AnneeScolaire = request('AnneeScolaire');       
+        $demande->semestre = request('semestre');       
+        $demande->motif = request('motif');       
+        $demande->classe = request('classe');       
         $demande->user_id = Auth::id();       
         $demande->save();
         $user = User::find(Auth::id());

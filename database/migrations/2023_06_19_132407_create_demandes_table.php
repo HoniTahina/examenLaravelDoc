@@ -14,11 +14,13 @@ return new class extends Migration
         Schema::create('demandes', function (Blueprint $table) {
             $table->id();
             $table->string('document');
-            $table->string('date')->nullable();
-            $table->string('message')->nullable();
+            $table->string('motif')->nullable();
+            $table->string('anneeScolaire')->nullable();
+            $table->string('classe')->nullable();
+            $table->string('semestre')->nullable();
             $table->string('etat')->default('En cours');
             $table->unsignedBigInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->timestamps();
         });
     }
