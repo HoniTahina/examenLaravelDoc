@@ -41,7 +41,7 @@
                         @if (Route::has('login'))
                           
                         @auth
-                        <li><a href="{{url('mesDemandes')}}">mesDemandes</a></li>
+                        <li><a href="{{url('mesDemandes')}}">MesDemandes</a></li>
                         <div class="btn-group">
                           <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Faire une demande
@@ -94,27 +94,35 @@
       <div class="form-outline mb-4" data-wow-delay="300ms">
         <label for="anneeScolaire" style="color: blanchedalmond">Année scolaire</label>
         <select name="anneeScolaire" id="anneeScolaire" class="custom-select" required>          
-          <option value="2000 - 2001">2010 - 2011</option>
-          <option value="2000 - 2001">2011 - 2012</option>
-          <option value="2000 - 2001">2012 - 2013</option>
-          <option value="2000 - 2001">2013 - 2014</option>
-          <option value="2000 - 2001">2014 - 2015</option>
-          <option value="2000 - 2001">2015 - 2016</option>
-          <option value="2000 - 2001">2016 - 2017</option>
-          <option value="2000 - 2001">2017 - 2018</option>
-          <option value="2000 - 2001">2018 - 2019</option>
-          <option value="2000 - 2001">2019 - 2020</option>
-          <option value="2000 - 2001">2020 - 2021</option>
-          <option value="2000 - 2001">2021 - 2022</option>
-          <option value="2000 - 2001">2022 - 2023</option>          
+          <option value="2010 - 2011">2010 - 2011</option>
+          <option value="2011 - 2012">2011 - 2012</option>
+          <option value="2012 - 2013">2012 - 2013</option>
+          <option value="2013 - 2014">2013 - 2014</option>
+          <option value="2014 - 2015">2014 - 2015</option>
+          <option value="2015 - 2016">2015 - 2016</option>
+          <option value="2016 - 2017">2016 - 2017</option>
+          <option value="2017 - 2018">2017 - 2018</option>
+          <option value="2018 - 2019">2018 - 2019</option>
+          <option value="2019 - 2020">2019 - 2020</option>
+          <option value="2020 - 2021">2020 - 2021</option>
+          <option value="2021 - 2022">2021 - 2022</option>
+          <option value="2022 - 2023">2022 - 2023</option>          
         </select>
       </div>  
       <div class="form-outline mb-4" data-wow-delay="300ms">
-        <label for="semestre" style="color: blanchedalmond">Semestre</label>
-        <select name="semestre" id="semestre" class="custom-select" required>          
-          <option value="Semestre 1 et Semestre 2">Semestre 1 et Semestre 2</option>
-          <option value="Semestre 1">Semestre 1</option>
-          <option value="Semestre 2">Semestre 2</option>        
+        <label for="mois" style="color: blanchedalmond">Mois</label>
+        <select name="mois" id="mois" class="custom-select" required>          
+          
+          <option value="Novembre">Novembre</option>
+          <option value="Decembre">Decembre </option>    
+          <option value="Janvier">Janvier</option> 
+          <option value="Février">Février</option>  
+          <option value="Mars">Mars</option>  
+          <option value="Avril">Avril</option>
+          <option value="Mai">Mai</option>   
+          <option value="Juin">Juin</option> 
+          <option value="Juillet">Juillet</option>        
+          <option value="Aout">Aout</option>   
         </select>
       </div>  
       <div class="form-outline mb-4" data-wow-delay="300ms">

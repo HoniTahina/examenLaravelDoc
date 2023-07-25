@@ -55,7 +55,8 @@ class DemandeController extends Controller
         
         $demande->document = request('document');       
         $demande->anneeScolaire = request('anneeScolaire');       
-        $demande->semestre = request('semestre');       
+        $demande->semestre = request('semestre'); 
+        $demande->mois = request('mois');       
         $demande->motif = request('motif');       
         $demande->classe = request('classe');       
         $demande->user_id = Auth::id();       
