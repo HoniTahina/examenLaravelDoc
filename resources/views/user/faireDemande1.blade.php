@@ -110,9 +110,19 @@
           <option value="2000 - 2001">2021 - 2022</option>
           <option value="2000 - 2001">2022 - 2023</option>          
         </select>
-      </div>    
+      </div>  
       <div class="form-outline mb-4" data-wow-delay="300ms">
-        <label for="classe" style="color: blanchedalmond">Classe</label>
+        <label for="anneeAcademique" style="color: blanchedalmond">Année Academique</label>
+        <select name="anneeAcademique" id="anneeAcademique" class="custom-select" required>          
+          <option value="1ère année">1ère année</option>
+          <option value="2ème année">2ème année</option>
+          <option value="3ème année">3ème année</option>        
+          <option value="3ème année">4ème année</option>        
+          <option value="3ème année">5ème année</option>        
+        </select>
+      </div>   
+      <div class="form-outline mb-4" data-wow-delay="300ms">
+        <label for="classe" style="color: blanchedalmond">Filière</label>
         <select name="classe" id="classe" class="custom-select" required>          
           <option value="GL">GL</option>
           <option value="IAGE">IAGE</option>

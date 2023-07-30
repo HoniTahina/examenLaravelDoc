@@ -82,8 +82,10 @@
                       <td>E-mail</td>
                       <td>Numéro</td>
                       <td>Année scolaire</td>
+                      <td>Année académique</td>
                       <td>Semestre</td>
-                      <td>Classe</td>
+                      <td>Filière</td>
+                      <td>Motif</td>
                       <td>Etat</td>                             
                       <td></td>                             
 
@@ -97,9 +99,11 @@
                       <td>{{$d->document}}</td>
                       <td>{{$d->user->email}}</td>
                       <td>{{$d->user->telephone}}</td>
-                      <td>{{$d->AnneeScolaire}}</td>
-                      <td>{{$d->Semestre}}</td>
-                      <td>{{$d->Classe}}</td>
+                      <td>{{$d->anneeScolaire}}</td>
+                      <td>{{$d->anneeAcademique}}</td>
+                      <td>{{$d->semestre}}</td>
+                      <td>{{$d->classe}}</td>
+                      <td>{{$d->motif}}</td>
                       <td>{{$d->etat}}</td>
                       <td><a class="btn btn-success" href="{{url('valide', $d->id)}}">Accepter</a> <a class="btn btn-danger" onclick="return confirm('Etes vous sûr de refuser cette demande? ')" href="{{url('canceled', $d->id)}}">Refuser</a></td>
 
@@ -113,27 +117,33 @@
                     <thead class="table-light">
                       <tr>
                         <td>N</td>
-                        <td>Nom et Prénoms</td>
-                        <td>Nom du doc</td>
-                        <td>E-mail</td>
-                        <td>Numéro</td>
-                        <td>Date</td>
-                        <td>Message</td>
-                        <td>Etat</td>
-                        <td></td>
+                      <td>Nom et Prénoms</td>
+                      <td>Nom du document</td>
+                      <td>E-mail</td>
+                      <td>Numéro</td>
+                      <td>Année scolaire</td>
+                      <td>Année académique</td>
+                      <td>Semestre</td>
+                      <td>Filière</td>
+                      <td>Motif</td>
+                      <td>Etat</td>                             
+                      <td></td>  
                       </tr>
                     </thead>
                     <tbody>
                       @foreach ($demandeA as $d)
                       <tr>
                         <td>{{$d->id}}</td>
-                        <td>{{$d->user->nom}}  {{$d->user->prenom}}</td>
-                        <td>{{$d->document}}</td>
-                        <td>{{$d->user->email}}</td>
-                        <td>{{$d->user->telephone}}</td>
-                        <td>{{$d->date}}</td>
-                        <td>{{$d->message}}</td>
-                        <td>{{$d->etat}}</td>
+                      <td>{{$d->user->nom}}  {{$d->user->prenom}}</td>
+                      <td>{{$d->document}}</td>
+                      <td>{{$d->user->email}}</td>
+                      <td>{{$d->user->telephone}}</td>
+                      <td>{{$d->anneeScolaire}}</td>
+                      <td>{{$d->anneeAcademique}}</td>
+                      <td>{{$d->semestre}}</td>
+                      <td>{{$d->classe}}</td>
+                      <td>{{$d->motif}}</td>
+                      <td>{{$d->etat}}</td>
                         <td><a class="btn btn-primary" href="{{url('pret', $d->id)}}">Prête</a></td>
                         
                       </tr>

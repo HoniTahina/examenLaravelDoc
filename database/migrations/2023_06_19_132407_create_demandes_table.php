@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('classe')->nullable();
             $table->string('semestre')->nullable();
             $table->string('mois')->nullable();
+            $table->string('anneeAcademique')->nullable();
             $table->string('etat')->default('En cours');
             $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');

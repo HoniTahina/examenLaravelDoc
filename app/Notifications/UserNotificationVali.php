@@ -36,7 +36,7 @@ class UserNotificationVali extends Notification
     {
         return (new MailMessage)
             ->line("Bonjour, votre demande a été acceptée")
-            ->line("Nnous vous concterons quand vos documents seront recupérables")
+            ->line("Nous vous concterons quand vos documents seront recupérables")
             ->action('Visiter le site', url('/faireDemande'))
             ->line(':)');
     }

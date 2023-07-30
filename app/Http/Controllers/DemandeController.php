@@ -55,6 +55,7 @@ class DemandeController extends Controller
         
         $demande->document = request('document');       
         $demande->anneeScolaire = request('anneeScolaire');       
+        $demande->anneeAcademique = request('anneeAcademique');       
         $demande->semestre = request('semestre'); 
         $demande->mois = request('mois');       
         $demande->motif = request('motif');       
