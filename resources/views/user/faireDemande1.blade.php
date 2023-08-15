@@ -90,7 +90,8 @@
           <option value="Certificat d'Inscription">Certificat d'Inscription</option>
           <option value="Certificat du licence">Certificat du licence</option>
           <option value="Certificat du licence">Diplôme de licence</option>
-          <option value="Diplôme de master">Diplôme de master</option>          
+          <option value="Diplôme de master">Diplôme de master</option>    
+          <option value="Diplôme de master">Diplôme de BTS</option>        
         </select>
       </div>
       <div class="form-outline mb-4" data-wow-delay="300ms">
@@ -114,10 +115,12 @@
       <div class="form-outline mb-4" data-wow-delay="300ms">
         <label for="classe" style="color: blanchedalmond">Classe</label>
         <select name="classe" id="classe" class="custom-select" required>          
-          <option value="GL">GL</option>
-          <option value="IAGE">IAGE</option>
-          <option value="RI">RI</option>        
-          <option value="Multimédia">Multimédia</option>        
+        <option value="L2GL">L2GL</option>
+          <option value="L3GL">L3GL</option>
+          <option value="M2GL">M2GL</option>
+          <option value="L2IAGE">L2IAGE</option>
+          <option value="L3IAGE">L3IAGE</option>
+          <option value="M2IAGE">M2IAGE</option>  
         </select>
       </div>  
       <!-- Message input -->

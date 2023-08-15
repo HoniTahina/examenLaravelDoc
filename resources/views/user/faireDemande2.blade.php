@@ -87,7 +87,7 @@
         <label for="document" style="color: blanchedalmond">Document</label >
         <select name="document" id="departement" class="custom-select" required>          
         
-          <option value="Relever de note">Facture</option>
+          <option value="Facture">Facture</option>
           
         </select>
       </div>
@@ -128,10 +128,16 @@
       <div class="form-outline mb-4" data-wow-delay="300ms">
         <label for="classe" style="color: blanchedalmond">Classe</label>
         <select name="classe" id="classe" class="custom-select" required>          
-          <option value="GL">GL</option>
-          <option value="IAGE">IAGE</option>
-          <option value="RI">RI</option>        
-          <option value="Multimédia">Multimédia</option>        
+        <option value="L1GL">L1GL</option>
+          <option value="L2GL">L2GL</option>
+          <option value="L3GL">L3GL</option>
+          <option value="M1GL">M1GL</option>
+          <option value="M2GL">M2GL</option>
+          <option value="L1IAGE">L1IAGE</option>
+          <option value="L2IAGE">L2IAGE</option>
+          <option value="L3IAGE">L3IAGE</option>
+          <option value="M1IAGE">M1IAGE</option>
+          <option value="M2IAGE">M2IAGE</option>   
         </select>
       </div>  
       <!-- Message input -->
