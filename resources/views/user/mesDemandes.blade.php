@@ -148,8 +148,9 @@
               <td>E-mail</td>
               <td>Numéro</td>
               <td>Anneé Scolaire</td>
+              <td>Anneé Académique</td>
               <td>Semestre</td>
-              <td>Classe</td>
+              <td>Filière</td>
               <td>Motif</td>
               <td>Etat</td>
               <td>  </td>
@@ -164,6 +165,7 @@
               <td>{{$d->user->email}}</td>
               <td>{{$d->user->telephone}}</td>
               <td>{{$d->anneeScolaire}}</td>
+              <td>{{$d->anneeAcademique}}</td>
               <td>{{$d->semestre}}</td>
               <td>{{$d->classe}}</td>
               <td>{{$d->motif}}</td>
@@ -191,7 +193,7 @@
                 <td>Numéro</td>
                 <td>Anneé Scolaire</td>
                 <td>Semestre</td>
-                <td>Classe</td>
+                <td>Filière</td>
                 <td>Motif</td>
                 <td>Etat</td>
               </tr>
@@ -226,7 +228,7 @@
               <td>Numéro</td>
               <td>Anneé Scolaire</td>
               <td>Semestre</td>
-              <td>Classe</td>
+              <td>Filière</td>
               <td>Motif</td>
               <td>Etat</td>
             </tr>

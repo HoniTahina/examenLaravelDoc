@@ -35,8 +35,8 @@ class ReadySendUser extends Notification
     public function toMail(object $notifiable): MailMessage
     {
         return (new MailMessage)
-        ->line('Bonjour, votre demande est prête, vous 
-        pouvez passer dans une de nos agences pour la recupérer')
+        ->line('Bonjour, votre document est prêt, vous 
+        pouvez passer le recupéré à l\'administration')
         ->action('Connectez vous pour en savoir plus', url('/'));
     }
 
